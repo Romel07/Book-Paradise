@@ -7,7 +7,7 @@ const Orders = () => {
     const [myBooking, setMyBooking] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:5055/myBooking?email='+loggedInUser.email)
+        fetch('https://gentle-everglades-73994.herokuapp.com/myBooking?email='+loggedInUser.email)
         .then(res=> res.json())
         .then(data=> setMyBooking(data))
     },[])

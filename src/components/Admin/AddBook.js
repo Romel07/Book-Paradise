@@ -30,7 +30,7 @@ const Admin = () => {
       price: data.price,
       imageURL: imageURL
     };
-    const url = `http://localhost:5055/addBooks`;
+    const url = `https://gentle-everglades-73994.herokuapp.com/addBooks`;
     console.log(bookData);
 
     fetch(url, {

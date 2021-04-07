@@ -10,7 +10,7 @@ const CheckOut = () => {
     console.log(bookId);
     const [selectedBook, setSelectedBook] = useState([{}]);
     useEffect(() => {
-        fetch('http://localhost:5055/books')
+        fetch('https://gentle-everglades-73994.herokuapp.com/books')
             .then(res => res.json())
             .then(data => setSelectedBook(data))
     }, [bookId])
@@ -24,7 +24,7 @@ const CheckOut = () => {
 
         mySelectedBook.push(myBook);
 
-        fetch('http://localhost:5055/addBooking',{
+        fetch('https://gentle-everglades-73994.herokuapp.com/addBooking',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -9,13 +9,13 @@ const ManageBook = () => {
     const [books, setBooks] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5055/books')
+        fetch('https://gentle-everglades-73994.herokuapp.com/books')
             .then(res => res.json())
             .then(data => setBooks(data))
     }, [])
 
     const deleteBook = (id) => {
-        fetch(`http://localhost:5055/delete/${id}`, 
+        fetch(`https://gentle-everglades-73994.herokuapp.com/delete/${id}`, 
         {method: 'DELETE'})
         .then(res => res.json())
         .then(result =>{
