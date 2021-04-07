@@ -10,7 +10,7 @@ This is a website where we sell mainly books for the undergradute students. Stud
 This is client site repo for the Book Paradise Dot Com.
 
 ## Setup
-It a website where I used react in front end , node for backend development and mongodb for server connection.
+It a website where I used react for front end , node for backend development and mongodb for server connection.
 
 ## Website Link : 
 https://bookparadise-3428c.web.app/
