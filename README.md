@@ -1,44 +1,19 @@
-Website Title: Book Paradise Dot Com
+# website Title : Book Paradise Dot Com
 
-This is a website where we sell mainly books for the undergradute students. Students can easily find their required books from this website.
+## Tagline/Slogan : 
+One Stop Service for your Stydy............
 
-Website Link:    https://bookparadise-3428c.web.app/
+## Project Description : 
+This is a website where we sell mainly books for the undergradute students. Students can easily find their required books from this website. Any kind of engineering, mecdical & university book is available in there.
 
-# Project README
-
-## Requirements
-_The required bits and bobs of the project (e.g. CMS, Tailwind, etc.)_
-
-## Project Notes
-_Pertinent high-level information about the project_
-
+## About Repository
+This is client site repo for the Book Paradise Dot Com.
 
 ## Setup
-_Steps for setting things up, particularly if for a CMS_
+It a website where I used react in front end , node for backend development and mongodb for server connection.
 
-## Front-end Compiling
-_Steps for front-end compiling_
-
-## Files & directories
-_List of key files and directories, how they're organized and used, etc._
-
-## Hacks/Kludges
-
-1. **Hack/kludge name**
-    Short description of what was done and why, including any reference links
-
-    - **When:** date
-    - **File(s):**
-
-      - Line #N in `[path to file]`
-      - Line #N in `[path to file]`
-          
-    - **Database:** Note any changes to the database. If none, delete this line.
-
-
-## Design Notes
-_If needed, pertinent design notes_
-
+## Website Link : 
+https://bookparadise-3428c.web.app/
 
 ## Credits
-_Kinda obvious, no? ;)_
+Romel
