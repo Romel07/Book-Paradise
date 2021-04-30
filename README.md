@@ -16,4 +16,4 @@ It a website where I used react for front end , node for backend development and
 https://bookparadise-3428c.web.app/
 
 ## Credits
-Romel
+Romel Barua
